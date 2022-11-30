@@ -1,6 +1,5 @@
 # Author: Ryan Korsrud
 # Version: November 29th, 2022
-# Webscrapes stats for the Boston Celtics and writes them to a CSV.
 from bs4 import BeautifulSoup
 import urllib.request
 import csv
