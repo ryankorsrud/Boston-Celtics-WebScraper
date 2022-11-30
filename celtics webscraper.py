@@ -40,7 +40,6 @@ def start():
     html = getHTML()
     names = getTableData(html, 0, 1, -1)
     stats = getTableData(html, 1, 1, len(names)+1)
-
     #combines data from the stats table and names table
     for i in range(len(stats)):
         stats[i].insert(0, names[i][0])
